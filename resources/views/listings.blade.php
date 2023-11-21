@@ -3,8 +3,6 @@
 @section('content')
 @include('partials._hero')
 @include('partials._search')
-    
-<h1>{{$heading}}</h1>
 
 @unless(count($listings) == 0)
 
